@@ -14,12 +14,12 @@ def aprekini(cementa_daudzums, smilsu_cena, cementa_cena):
     udens_daudzums=cementa_daudzums*0.5
     betona_masa=smilsu_daudzums+udens_daudzums+cementa_daudzums
     kopejas_izmaksas=round((cementa_cena*cementa_daudzums+smilsu_daudzums*smilsu_cena), 2)
-    
+
 
 
 
 def izvade(smilsu_daudzums, udens_daudzums, kopejas_izmaksas, betona_masa):
-
+    print(smilsu_daudzums, udens_daudzums, kopejas_izmaksas, betona_masa)
 
     a, b, c=ievade()
     d, e, f, g=aprekini(a, b, c)
